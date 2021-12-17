@@ -1,0 +1,8 @@
+// set color based on background-color
+@function set-text-color($color) {
+    @if(lightness($color) > 50) {
+        @return hsl(0, 0%, 20%);
+    } @else {
+        @return hsl(0, 0%, 90%);
+    }
+}

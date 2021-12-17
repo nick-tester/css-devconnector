@@ -1,0 +1,22 @@
+.form {
+
+    &-group {
+        margin: 1.4rem 0;
+    }
+
+    &-text {
+        display: block;
+        margin-top: .4rem;
+        color: $color-accent;
+    }
+
+    input:not([type="submit"]),
+    select,
+    textarea {
+        display: block;
+        width: 100%;
+        padding: .6rem;
+        font-size: 1.4rem;
+        border: .1rem solid $color-grey-light;
+    }
+}

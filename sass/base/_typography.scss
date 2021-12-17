@@ -1,0 +1,29 @@
+body {
+    font-size: 1.65rem;
+    font-family: $font-main;
+    line-height: 1.65;
+    color: $color-black;
+}
+
+.fo {
+    &-xl {
+        font-size: 4rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+    
+    &-lg {
+        font-size: 3rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+}
+
+.lead {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-primary {
+    color: $color-primary;
+}
